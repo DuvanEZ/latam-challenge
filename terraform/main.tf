@@ -1,6 +1,6 @@
 # Provider configuration for Google Cloud Platform
 provider "google" {
-  credentials = file("../stalwart-yen-428319-q9-xxxxxxxx.json")  # Ruta al archivo JSON de la cuenta de servicio
+  credentials = file("../stalwart-yen-xxxxxxx-xx-xxxxxxxx.json")  # Ruta al archivo JSON de la cuenta de servicio
   project     = var.project_id  # ID del proyecto para el proyecto de Google Cloud
   region      = var.region  # Región donde se crearán los recursos
 }
