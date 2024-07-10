@@ -38,6 +38,17 @@ Dentro de la carpeta src se podrán encontrar las funciones fuentes encargadas p
 Cabe aclarar que dentro del archivo challenge.ipynb se incluyó código hecho en Spark para el primer punto, esto con el fin de mostrar que es una solución perfecta cuando hablamos de escalabilidad y rapidez, pero esta solución no se tomó para la solución mostrada por el main.py ya que requiere de más librerías y un montaje más complejo.
 ## Archivos principales
 Se elaboraron dos soluciones finales: una está hecha con Flask, ya que nos proporciona facilidad en el manejo de APIs y conexiones; esta solución es con la que se generó un contenedor de Docker. Tenemos otra solución final usando Streamlit, la cual es una solución más visual y agradable, pero para esta se requiere poder de cómputo más grande y una solución más elaborada.
+# Imagen de lo obtenido en flask con una imagen montada desde docker
+![Alt text](subdirectory/Flask_app.png)
+
+# Imagenes Streamlit
+Question 1
+![Alt text](subdirectory/streamlit_question.png)
+Question 2
+![Alt text](subdirectory/streamlit_question2.png)
+Question 3
+![Alt text](subdirectory/streamlit_question3.png)
+
 
 ## Consideraciones
 Adicional, cabe aclarar que este proyecto fue hecho por una persona natural con sus limitaciones en la cantidad de plataformas que se puedan usar y/o recursos. En caso tal de querer una solución totalmente escalable y habilitada en cualquier parte, lo mejor sería realizar un montaje en nube donde la fuente de datos provenga ya sea de un bucket o otra fuente accesible y considerar la posibilidad de usar servicios de nube como lo puede ser BigQuery para elaborar una solución warehouse donde la rapidez de procesamiento es clara. 
