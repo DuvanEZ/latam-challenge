@@ -39,15 +39,15 @@ Cabe aclarar que dentro del archivo challenge.ipynb se incluyó código hecho en
 ## Archivos principales
 Se elaboraron dos soluciones finales: una está hecha con Flask, ya que nos proporciona facilidad en el manejo de APIs y conexiones; esta solución es con la que se generó un contenedor de Docker. Tenemos otra solución final usando Streamlit, la cual es una solución más visual y agradable, pero para esta se requiere poder de cómputo más grande y una solución más elaborada.
 # Imagen de lo obtenido en flask con una imagen montada desde docker
-![Alt text](subdirectory/Flask_app.png)
+![Alt text](images/Flask_app.png)
 
 # Imagenes Streamlit
 Question 1
-![Alt text](subdirectory/streamlit_question.png)
+![Alt text](images/streamlit_question.png)
 Question 2
-![Alt text](subdirectory/streamlit_question2.png)
+![Alt text](images/streamlit_question2.png)
 Question 3
-![Alt text](subdirectory/streamlit_question3.png)
+![Alt text](images/streamlit_question3.png)
 
 
 ## Consideraciones
