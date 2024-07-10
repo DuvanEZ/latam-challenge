@@ -4,3 +4,6 @@ __pycache__/
 *.py[cod]
 farmers-protest-tweets-2021-2-4.json
 *.json
+terraforms/.terraforms
+terraform-provider-google_v5.37.0_x5.exe
+*exe
