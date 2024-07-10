@@ -54,6 +54,12 @@ Question 3
 Adicional, cabe aclarar que este proyecto fue hecho por una persona natural con sus limitaciones en la cantidad de plataformas que se puedan usar y/o recursos. En caso tal de querer una solución totalmente escalable y habilitada en cualquier parte, lo mejor sería realizar un montaje en nube donde la fuente de datos provenga ya sea de un bucket o otra fuente accesible y considerar la posibilidad de usar servicios de nube como lo puede ser BigQuery para elaborar una solución warehouse donde la rapidez de procesamiento es clara. 
 
 
+## Terraform
+Como ultimo se añade los archivos de terraform los cuales son necesarios para realizar un despliegue en la nube de manera facil y segura en este caso los archivos estan hechos para desplegar en la nube de gcp. 
+
+## Pasos a seguir
+Se podría implementar una solución donde los archivos esten previamente subidos a un bocket en gcp y conectarse a estos por medio del codigo posibilitanto el uso de otras herramientas y un mejor mmanejo de la información implementando governzan de datos usando el IAM. 
+Se podría implementar github actions para realizar un despliegue continuo con kubernetes para que sea tolerante a fallos.
 
 
 
